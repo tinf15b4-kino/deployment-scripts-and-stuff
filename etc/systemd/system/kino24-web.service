@@ -1,0 +1,14 @@
+[Unit]
+Description=Kino24 Web Service
+
+[Service]
+ExecStart=/srv/kino24/run-web.sh
+SuccessExitStatus=143
+StandardOutput=journal
+StandardError=journal
+StandardInput=socket
+Restart=on-failure
+User=kino24
+Group=kino24
+
+

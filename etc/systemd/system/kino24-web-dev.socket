@@ -1,0 +1,8 @@
+[Unit]
+Description=Socket for kino24 web service
+
+[Socket]
+ListenStream=127.0.0.1:10099
+
+[Install]
+WantedBy=sockets.target
