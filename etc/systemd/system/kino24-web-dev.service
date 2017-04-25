@@ -10,5 +10,6 @@ StandardInput=socket
 Restart=on-failure
 User=kino24
 Group=kino24
+Environment=SMARTCINEMA_API_URL=https://smartcinema-dev.tinf15b4.de
 
 
